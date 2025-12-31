@@ -1,0 +1,169 @@
+.projects-section {
+  padding: 9rem 0;
+  background-color: #0d0d10;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.projects-header {
+  margin-bottom: 4rem;
+  text-align: left;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.projects-subtitle {
+  font-size: 1.125rem;
+  color: #94a3b8;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.project-card {
+  position: relative;
+  border-radius: 2rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.5s ease;
+}
+
+.project-card:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.project-image {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.project-image .image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: transform 0.7s ease, filter 0.7s ease;
+}
+
+.project-card:hover .image {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+
+.project-content {
+  padding: 2rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 0.625rem;
+  font-weight: 500;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.project-card:hover .project-title {
+  color: #6366f1; /* Indigo accent */
+}
+
+.project-description {
+  font-size: 0.875rem;
+  color: #94a3b8;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.project-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link .icon {
+  margin-right: 0.5rem;
+}
+
+.live-demo {
+  color: white;
+}
+
+.live-demo:hover {
+  color: #6366f1;
+}
+
+.repository {
+  color: #94a3b8;
+}
+
+.repository:hover {
+  color: white;
+}
+
+.see-more {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.see-more-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  color: white;
+}
+
+.see-more-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
