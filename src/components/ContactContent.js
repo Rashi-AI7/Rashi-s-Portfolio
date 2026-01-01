@@ -24,10 +24,10 @@ export default function Contact() {
         ).then(() => {
             setSubmitted(true);
             setFormState({ name: '', email: '', message: '' });
-            setSnackbarOpen(true); // ✅ show snackbar 
+            setSnackbarOpen(true); 
             setTimeout(() => { 
             setSubmitted(false); 
-            setSnackbarOpen(false); // ✅ auto-hide after 3s 
+            setSnackbarOpen(false); 
             }, 3000);
         }).catch((err) => {
             console.error('EmailJS error:', err);

@@ -27,14 +27,12 @@
     }
 }
 
-/* Gradient Text */
 .gradient-text {
     background: linear-gradient(to right, #6366f1, #ec4899);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-/* Subtitle */
 .hero-subtitle {
     font-family: "Indie Flower", cursive;
     max-width: 42rem;
@@ -42,7 +40,6 @@
     font-size: 1.125rem;
     line-height: 1.75rem;
     color: #94a3b8;
-    /* slate-400 */
 }
 
 .hero-subtitle .highlight {
@@ -92,7 +89,6 @@
 
 .btn-pri:hover {
     background-color: #e2e8f0;
-    /* slate-200 */
     transform: scale(1.05);
 }
 

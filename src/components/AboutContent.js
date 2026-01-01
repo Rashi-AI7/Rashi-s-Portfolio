@@ -32,7 +32,6 @@ export default function About() {
   return (
     <section id="about" className="about-section">
       <div className="container">
-        {/* About text + highlights */}
         <div className="about-grid">
           <div className="about-text">
             <h2 className="about-heading">
@@ -61,8 +60,6 @@ export default function About() {
             ))}
           </div>
         </div>
-
-        {/* Skills section inside About */}
         <div className="skills-section">
           <h2 className="skills-heading">Toolkit.</h2>
           <p className="skills-subtitle">The technologies I use to bring ideas to life.</p>

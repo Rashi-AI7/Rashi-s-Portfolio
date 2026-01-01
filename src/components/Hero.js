@@ -12,7 +12,7 @@ export default function Hero() {
     <p className="hero-subtitle">Hi, I am <span class="highlight">Rashi Singh</span>. I specialize in building robust applications using the MERN stack. With a deep commitment to writing optimized code through Data Structures and Algorithms in Java, along with versatility in Python, I focus on creating software that is not just functional, but high-performing.</p>
     <div className="hero-btns">
         <Link to="/project" className="btn btn-pri">View my Work</Link>
-        <Link to="/contact" className="btn btn-sec">Connect</Link>
+        <Link to="/Rashi Singh_Resume.pdf" download="Rashi_Singh_Resume" target="_blank" className="btn btn-sec"> Download Resume</Link>
     </div>
 
     
