@@ -43,6 +43,7 @@ git clone https://github.com/Rashi-AI7/rashi-s-portfolio.git
 cd my-app
 npm install
 npm start
+```
 
-Coonect with me via [Linkedin](https://linkedin.com/in/rashiai)
+Connect with me on [LinkedIn](https://linkedin.com/in/rashiai) to explore collaborations, share ideas, or just say hi!
 
