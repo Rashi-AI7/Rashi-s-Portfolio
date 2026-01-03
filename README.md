@@ -44,4 +44,5 @@ cd my-app
 npm install
 npm start
 
+Coonect with me via [Linkedin](https://linkedin.com/in/rashiai)
 
