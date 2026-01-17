@@ -6,6 +6,14 @@ export const PROJECTS = [{
     tags: ["MERN", "SOCKET.IO", "WEBRTC", "MATERIAL UI"], 
     link: "https://meeton-frontend.onrender.com/",  
     github: "https://github.com/Rashi-AI7/MeetOn" 
+ },{
+    id: 2, 
+    title: "PatternLog", 
+    description: "A Chrome Extension built for DSA practice tracking.", 
+    image: "/assets/PatternLog.png", 
+    tags: ["JavaScript", "Chrome Extensions API(Manifest V3)", "Content Sripts", "Chrome Storage API","HTML+CSS"], 
+    link: "https://drive.google.com/file/d/1IZ5ye2TRLkMdJNZq_UCVSXJCrMbubFFU/view?usp=drive_link",  
+    github: "https://github.com/Rashi-AI7/PatternLog" 
  }
 ]
 
